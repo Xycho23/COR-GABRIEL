@@ -62,3 +62,31 @@ body {
 .subject-details td {
     text-align: left;
 }
+.fees {
+    width: 50%;
+    height: 10%; 
+    margin: 2 ; 
+}
+
+.fees table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.fees th, .fees td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;
+}
+
+.fees th {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+.fees h2 {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 18px; 
+}
+
