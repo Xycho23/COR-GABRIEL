@@ -39,3 +39,26 @@ body {
     margin: 5px 0;
     line-height: 1.5;
 }
+.subject-details table, .fees table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.student-info p, .fees p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+.subject-details th, .subject-details td, .fees th, .fees td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.subject-details th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.subject-details td {
+    text-align: left;
+}
