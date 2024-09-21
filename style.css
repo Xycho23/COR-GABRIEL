@@ -34,11 +34,6 @@ body {
     text-decoration: underline;
     margin-bottom: 10px;
 }
-
-.student-info p, .fees p {
-    margin: 5px 0;
-    line-height: 1.5;
-}
 .subject-details table, .fees table {
     width: 100%;
     border-collapse: collapse;
@@ -63,19 +58,20 @@ body {
     text-align: left;
 }
 .fees {
-    width: 50%;
+    float: left; 
+    width: 70%;
     height: 10%; 
     margin: 2 ; 
 }
 
 .fees table {
-    width: 100%; 
+    width: 60%; 
     border-collapse: collapse;
 }
 
 .fees th, .fees td {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 8px;
+    border: 0.1px solid rgb(0, 0, 0);
+    padding: 0.1px;
     text-align: left;
 }
 
@@ -85,8 +81,41 @@ body {
 }
 
 .fees h2 {
-    text-align: start;
-    margin-top: 20px;
-    font-size: 18px; 
+    text-align: left;
+
+    margin-bottom: 40px;
+    font-size: 14px; 
+}
+.refund-rules {
+    float: right;
+    width: 30%; 
+    margin-left: 20px;
+    margin-top: 70px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.7;
 }
 
+.refund-rules h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.refund-rules ul {
+    list-style: disc;
+    margin-left: 0px;
+}
+
+.refund-rules li {
+    margin-bottom: 5px;
+}
+
+.refund-rules p {
+    margin-bottom: 5px;
+}
+.certified-copy {
+    font-weight: 200;
+    text-align: bottom;
+    margin-bottom: 20px;
+}
